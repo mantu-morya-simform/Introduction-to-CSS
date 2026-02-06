@@ -51,13 +51,3 @@
   background: rgb(240, 234, 234);
   cursor: pointer;
 }
-
-footer p {
-  text-align: center;
-  font-weight: bold;
-}
-
-p {
-  font-size: 22px;
-  line-height: 1.5;
-}
