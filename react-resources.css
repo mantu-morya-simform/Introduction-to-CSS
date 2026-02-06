@@ -1,0 +1,22 @@
+.headder-main {
+  background-color: rgb(241, 207, 165);
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.nav-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.nav-item {
+  padding: 10px;
+  background: #2f2f31e5;
+  color: aliceblue;
+  font-size: large;
+  font-weight: bold;
+}

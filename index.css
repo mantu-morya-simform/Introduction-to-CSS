@@ -1,0 +1,85 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
+  color: rgb(11, 12, 17);
+}
+
+h1,
+h2,
+h3 {
+  color: rgb(65, 114, 155);
+}
+
+h1 {
+  font-size: 26px;
+
+  font-style: italic;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 20px;
+}
+
+footer p {
+  text-align: center;
+  font-weight: bold;
+}
+
+article p {
+  font-style: italic;
+}
+
+.related-post-list {
+  list-style: none;
+}
+
+.related-post-list,
+a {
+  text-decoration: none;
+}
+
+.headder-main {
+  background-color: rgb(241, 207, 165);
+  padding: 10px;
+}
+
+.nav-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.nav-item {
+  padding: 10px;
+  background: #2f2f31e5;
+  color: aliceblue;
+  font-size: large;
+  font-weight: bold;
+}
