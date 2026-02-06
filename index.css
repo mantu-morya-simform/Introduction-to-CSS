@@ -83,3 +83,22 @@ a {
   font-size: large;
   font-weight: bold;
 }
+
+.related-main {
+  border-top: 5px solid rgb(50, 174, 190);
+  border-bottom: 5px solid rgb(50, 174, 190);
+  background: #f7f5f5;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(2) {
+  color: rgb(17, 27, 172);
+  font-weight: bold;
+}
