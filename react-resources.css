@@ -20,3 +20,13 @@
   font-size: large;
   font-weight: bold;
 }
+
+footer p {
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
