@@ -1,3 +1,8 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
 .headder-main {
   background-color: rgb(241, 207, 165);
   padding: 10px;
@@ -29,4 +34,19 @@ footer p {
 p {
   font-size: 22px;
   line-height: 1.5;
+}
+
+.frame {
+  width: 100%;
+  height: 100%;
+}
+
+.frame-section {
+  width: 100%;
+  height: 100%;
+}
+
+h3 {
+  margin-left: 150px;
+  margin-top: 50px;
 }
