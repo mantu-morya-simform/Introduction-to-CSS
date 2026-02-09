@@ -144,4 +144,43 @@ footer p {
   margin-right: auto; */
   /* or */
   margin: 0 auto;
+  position: relative;
+}
+
+/* Absolute Positioning */
+
+.btn {
+  padding: 20px;
+  font-weight: bold;
+  width: 120px;
+  font-size: large;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 100px;
+  right: 50px;
+  cursor: pointer;
+}
+
+/* Pseudo Element */
+
+h2::first-letter {
+  color: black;
+  font-size: 60px;
+}
+
+h2 {
+  position: relative;
+}
+
+h2::after {
+  content: "Top";
+  background: yellow;
+  color: #444;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: 10px;
+  right: -25px;
 }
