@@ -1,11 +1,7 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+body {
   font-family: sans-serif;
   color: rgb(11, 12, 17);
+  border-top: 10px solid#1098ac;
 }
 
 h1,
@@ -57,9 +53,17 @@ article p {
   list-style: none;
 }
 
+a:link {
+  color: rgb(86, 219, 236);
+}
+
 .related-post-list,
 a {
   text-decoration: none;
+}
+
+a:hover {
+  color: blue;
 }
 
 .headder-main {
@@ -101,4 +105,24 @@ li:last-child {
 li:nth-child(2) {
   color: rgb(17, 27, 172);
   font-weight: bold;
+}
+
+/* Resolve Conflict in Selector */
+
+#copyright {
+  color: gray;
+}
+
+.copyright {
+  color: blue;
+}
+
+.text {
+  color: black;
+}
+
+footer p {
+  /* Higest Prioraty but Bed prectice  */
+  /* color: yellow !important;   */
+  color: red;
 }
